@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Setup", "Setup\Setup.csproj", "{FCEDA2CA-1B63-467B-B3E0-239A62F50033}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridSystem", "GridSystem\GridSystem.csproj", "{12D315E2-729B-4B15-8ADD-209F6C71418A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modal", "Modal\Modal.csproj", "{3D72BD8F-D0F8-48B2-A2FA-959E21D0F27B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Title", "Title\Title.csproj", "{23D05C70-E5EA-4448-9775-4434237A0B1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,8 +29,15 @@ Global
 		{3D72BD8F-D0F8-48B2-A2FA-959E21D0F27B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D72BD8F-D0F8-48B2-A2FA-959E21D0F27B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D72BD8F-D0F8-48B2-A2FA-959E21D0F27B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23D05C70-E5EA-4448-9775-4434237A0B1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D05C70-E5EA-4448-9775-4434237A0B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D05C70-E5EA-4448-9775-4434237A0B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D05C70-E5EA-4448-9775-4434237A0B1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA21E19D-6BE7-4155-87CD-7FB47B987578}
 	EndGlobalSection
 EndGlobal
