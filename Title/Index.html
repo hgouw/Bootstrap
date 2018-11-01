@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap Modal Demo</title>
+    <title>Title Demo</title>
 
     <!-- Bootstrap -->
     <link href="Content/bootstrap.css" rel="stylesheet" />
@@ -20,10 +20,104 @@
     <![endif]-->
 
     <style>
+        .lnxTopNav {
+            background: #373739;
+            border-bottom: 3px solid #D4262E;
+            height: 50px;
+            /*min-height: 50px;*/
+            /*overflow: hidden;*/
+            padding-left: 1%;
+            padding-right: 1%;
+            min-width: 1100px !important;
+        }
+        .lnQflHeader {
+            /*position: absolute;*/
+            float: left;
+            top: 0;
+            /*min-height: 49px;*/
+            width: 100%;
+            color: white;
+            text-align: left; /*reset from parent*/
+        }
+        .lnxBtnOption {
+            font-family: 'Lato' !important;
+            color: #C6C6C6 !important;
+            text-shadow: none !important;
+            border-radius: 0 !important;
+            background-color: #373739 !important;
+            background-image: none !important;
+            border-color: #4B4C4E !important;
+            border-top-width: 0 !important;
+            border-bottom-width: 0 !important;
+            height: 44px !important;
+            margin-top: 1px;
+            padding: 12px;
+            outline: 1px solid #1B1C1C;
+            font-weight: normal;
+            letter-spacing: 0.05em !important;
+        }
+        .lnxBtnOption:hover {
+            background-color: #525355 !important;
+            background-image: none !important;
+            color: #fff !important;
+            text-shadow: none !important;
+        }
     </style>
 </head>
 
 <body>
+    <div class="lnxTopNav">
+        <div class="pull-left">
+            <div class="btn-group pull-left">
+                <a href="#/start" class="btn btn-default lnxBtnLogo"><small>Lexis Advance&reg;</small><br />Lexis&reg; Legal Analytics</a>
+            </div>
+        </div>
+        <div class="center-block">
+            <div class="pull-right">
+                <span style="display: inline-block;
+                             color:#fff;
+                             padding: 12px;
+                             padding-right: 24px;
+                             margin-bottom: 0;
+                             font-size: 14px;
+                             line-height: 1.42857143;
+                             text-align: center;
+                             white-space: nowrap;
+                             vertical-align: middle;
+                             user-select: none;">
+                    ModuleTitle
+                </span>
+            </div>
+        </div>
+        <div class="pull-right">
+            <div class="pull-left">
+                <span style="display: inline-block;
+                                 color:#fff;
+                                 padding: 12px;
+                                 padding-right: 24px;
+                                 margin-bottom: 0;
+                                 font-size: 14px;
+                                 line-height: 1.42857143;
+                                 text-align: center;
+                                 white-space: nowrap;
+                                 vertical-align: middle;
+                                 user-select: none;">
+                    Mode
+                </span>
+            </div>
+            <div class="pull-left">
+                <a href="/doc/{{module}}-help.pdf" target="_blank" class="btn lnxBtnOption">
+                    FAQs
+                </a>
+            </div>
+            <div class="pull-left">
+                <a href="https://advance.lexis.com/sign-out" target="_self" class="btn lnxBtnOption">
+                    Sign Out
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="lnQflHeader"></div>
 </body>
 
 </html>
